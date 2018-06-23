@@ -52,6 +52,14 @@ public class InpPage {
 
     }
 
+    public void setsum(WebElement sum) {
+        sum.click();
+        }
+
+    public void setsend(WebElement send) {
+        send.click();
+    }
+
     public void fillField(String fieldName, String value) {
         switch (fieldName){
             case "Фамилия анг":
